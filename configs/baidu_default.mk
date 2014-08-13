@@ -280,15 +280,24 @@ BAIDU_SERVICES += \
 	/system/bin/WordSegService \
 	/system/bin/serviceext
 
+
 BAIDU_PREBUILT_PACKAGE_android.policy := \
-	android \
+	baidu \
 	com/baidu \
 	com/yi \
 	yi
 
 BAIDU_PREBUILT_PACKAGE_framework := \
+	baidu \
 	com/baidu \
-	baidu
+	com/yi \
+	yi
+
+BAIDU_PREBUILT_PACKAGE_services := \
+	baidu \
+	com/baidu \
+	com/yi \
+	yi
 
 NEED_COMPELETE_MODULE_PAIR := \
 	app/Phone.apk:Phone \
